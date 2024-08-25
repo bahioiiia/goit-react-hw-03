@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-/* import ContactForm from "../ContactForm/ContactForm"; */
+import ContactForm from "../ContactForm/ContactForm";
 import SearchBox from "../SearchBox/SearchBox";
 import ContactList from "../ContactList/ContactList";
 import myContacts from "../../contacts.json";
@@ -42,7 +42,7 @@ export default function App() {
   return (
     <div className={css.container}>
       <h1>Phonebook</h1>
-{/*       <ContactForm onAdd={addContact} /> */}
+      <ContactForm onAdd={addContact} />
       <SearchBox value={searchContact} onSearch={setSearchContact} />
       <ContactList contacts={foundСontacts} onDelete={deleteContact} />
     </div>

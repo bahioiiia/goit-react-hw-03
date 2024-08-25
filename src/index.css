@@ -39,6 +39,19 @@ h1 {
   line-height: 1.1;
 }
 
+input {
+  height: 30px;
+  border: 2px solid currentColor;
+  transition: border-color 250ms linear;
+  outline: none;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+input:hover, input:focus {
+  border-color: #535bf2;
+}
+
 button {
   border-radius: 8px;
   border: 2px solid transparent;
@@ -46,9 +59,10 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #111;
   cursor: pointer;
   transition: border-color 0.25s;
+  align-self: center;
 }
 button:hover {
   border-color: #646cff;
@@ -67,6 +81,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #f0f0f0;
   }
 }
