@@ -2,7 +2,7 @@
   width: 325px;
   height: 80px;
   padding: 10px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid currentColor;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
@@ -22,5 +22,4 @@
 }
 
 .contactBtn {
-  min-width: 80px;
 }
