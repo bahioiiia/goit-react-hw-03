@@ -40,11 +40,11 @@ export default function App() {
   );
 
   return (
-    <div className={css.container}>
+    <section className={css.container}>
       <h1>Phonebook</h1>
       <ContactForm onAdd={addContact} />
       <SearchBox value={searchContact} onSearch={setSearchContact} />
       <ContactList contacts={foundСontacts} onDelete={deleteContact} />
-    </div>
+    </section>
   );
 }

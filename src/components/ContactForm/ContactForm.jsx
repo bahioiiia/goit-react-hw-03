@@ -13,7 +13,7 @@ const FeedbackSchema = Yup.object().shape({
   number: Yup.string()
     .matches(
       /^\d{3}-\d{2}-\d{2}$/,
-      "Неправильний формат номера телефону. Введіть у форматі 123-45-67"
+      "Please enter phone number as ***-**-**"
     )
     .min(9, "Too Short!")
     .max(9, "Too Long!")
